@@ -1,3 +1,20 @@
+## Requirements
+* progress bar moves smoothly across multiple measures per the set tempo
+* Can set tempo
+* Measures can have an arbitrary number of beats
+* If using “bouncy”
+	* ball bounces only onto beats with words
+
+### Stretch Goals
+* Measure definitions are pulled in via API (if we write an API) OR
+* measure definitions can be changed by the user in the interface
+
+## Assumptions:
+* Measures are all consistently sized (width), but can grow/shrink dynamically (not set pixel widths)
+
+
+=======
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
