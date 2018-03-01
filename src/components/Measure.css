@@ -1,0 +1,34 @@
+.measures{
+    display: flex;
+    margin: 1rem;
+}
+
+.measures > .measure {
+    border-right: 2px solid black;
+    flex: 1;
+    text-align: left;
+    padding: 5px;
+}
+
+.measure:first-child{
+    border-left: 2px solid black;
+}
+
+.track{
+    display: flex;
+    height: 2rem;
+    overflow: visible;
+}
+
+.track:not(:last-child){
+    border-bottom: 1px dotted gray;
+}
+
+.track > * {
+    flex: 1;
+    align-content: flex-start;
+    align-self: flex-start;
+    height: 1rem;
+    flex-shrink: 0;
+    overflow: visible;
+}
